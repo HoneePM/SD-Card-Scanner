@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hm.com.scanner.DetailsActivity">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/raido_btn_grp">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameSize"
+            android:text="@string/radio_btn_name_size_list" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/nameSizeList"
+            android:visibility="gone"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"></TextView>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/average"
+            android:text="@string/radio_btn_average" />
+
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:visibility="gone"
+            android:id="@+id/avdData" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frequent"
+            android:text="@string/radio_btn_frequency" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/extensionFrequencydata"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"></TextView>
+
+    </RadioGroup>
+
+
+
+</RelativeLayout>
