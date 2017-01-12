@@ -1,9 +1,11 @@
 # SD-Card-Scanner
-Goal:
-Write an app that scans all files on the external storage (SD card) and collects following information:
-∙ Names and sizes of 10 biggest files
-∙ Average file size
-∙ 5 most frequent file extensions (with their frequencies)
+<h1>Goal:<h1>
+<p>
+Write an app that scans all files on the external storage (SD card) and collects following information:<br>
+∙ Names and sizes of 10 biggest files<br>
+∙ Average file size<br>
+∙ 5 most frequent file extensions (with their frequencies)<br>
+</p>
 Functional Acceptance Criteria:
 ∙ This information should be displayed in a convenient way.
 ∙ App allows the user to start and stop scanning.
